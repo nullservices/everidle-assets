@@ -1,0 +1,5 @@
+# Treat model + texture binaries as binary so git never munges line endings.
+# IMPORTANT: do NOT use Git LFS here — jsDelivr serves the LFS *pointer text*,
+# not the file, so LFS assets won't load. These must be committed directly.
+*.glb binary
+*.png binary
